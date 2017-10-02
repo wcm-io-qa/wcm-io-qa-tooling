@@ -25,6 +25,9 @@
 
     <release version="1.0.2" date="not released">
       <action type="update" dev="sseifert">
+        Update to global-parent 17.
+      </action>
+      <action type="update" dev="sseifert">
         maven-release-plugin: Enable OddEvenVersionPolicy.
       </action>
     </release>
