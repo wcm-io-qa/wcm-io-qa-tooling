@@ -25,13 +25,13 @@
   <parent>
     <groupId>io.wcm.maven</groupId>
     <artifactId>io.wcm.maven.global-parent</artifactId>
-    <version>13</version>
+    <version>20</version>
     <relativePath />
   </parent>
 
   <groupId>io.wcm.qa</groupId>
   <artifactId>io.wcm.qa.parent_toplevel</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <packaging>pom</packaging>
 
   <name>Toplevel Parent</name>
@@ -87,11 +87,21 @@
     <site.url.module.prefix>tooling/parent_toplevel</site.url.module.prefix>
     <site.url>http://qa.wcm.io</site.url>
     <site.deploy.id>ssh-wcm.io</site.deploy.id>
-    <site.deploy.url>scp://wcmio@wcm.io:222/var/www/qa.wcm.io/www/</site.deploy.url>
+    <site.deploy.url />
 
   </properties>
 
   <build>
+    <extensions>
+
+      <!-- Add wcm.io file header to code templates -->
+      <extension>
+        <groupId>io.wcm.maven</groupId>
+        <artifactId>io.wcm.maven.global-build-tools-mixin</artifactId>
+        <version>1</version>
+      </extension>
+
+    </extensions>
     <plugins>
 
       <!-- license check -->
@@ -182,6 +192,21 @@
           </configuration>
         </plugin>
 
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <configuration>
+            <projectVersionPolicyId>OddEvenVersionPolicy</projectVersionPolicyId>
+          </configuration>
+          <dependencies>
+            <dependency>
+              <groupId>org.apache.maven.release</groupId>
+              <artifactId>maven-release-oddeven-policy</artifactId>
+              <version>2.5.3</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+
       </plugins>
 
     </pluginManagement>
@@ -200,7 +225,7 @@
               <report>index</report>
               <report>dependencies</report>
               <report>scm</report>
-              <report>license</report>
+              <report>licenses</report>
               <report>summary</report>
             </reports>
           </reportSet>
@@ -213,7 +238,7 @@
   <profiles>
     <!-- profile used for building releases and deployment to sonatype/maven central -->
     <profile>
-      <id>release</id>
+      <id>release-profile</id>
       <activation>
         <property>
           <name>performRelease</name>
