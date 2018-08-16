@@ -31,7 +31,7 @@
 
   <groupId>io.wcm.qa</groupId>
   <artifactId>io.wcm.qa.parent_toplevel</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Toplevel Parent</name>
@@ -87,7 +87,7 @@
     <site.url.module.prefix>tooling/parent_toplevel</site.url.module.prefix>
     <site.url>http://qa.wcm.io</site.url>
     <site.deploy.id>ssh-wcm.io</site.deploy.id>
-    <site.deploy.url></site.deploy.url>
+    <site.deploy.url />
 
   </properties>
 
