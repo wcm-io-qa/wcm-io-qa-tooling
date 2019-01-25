@@ -25,13 +25,13 @@
   <parent>
     <groupId>io.wcm.qa</groupId>
     <artifactId>io.wcm.qa.parent_toplevel</artifactId>
-    <version>2</version>
+    <version>3</version>
     <relativePath>../parent_toplevel/pom.xml</relativePath>
   </parent>
 
   <groupId>io.wcm.qa</groupId>
   <artifactId>public_site</artifactId>
-  <version>2</version>
+  <version>3</version>
   <packaging>pom</packaging>
 
   <name>Public Site</name>
