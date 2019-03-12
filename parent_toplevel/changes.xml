@@ -24,8 +24,11 @@
   <body>
 
     <release version="4" date="not released">
-      <action type="update" dev="apegam">
+      <action type="update" dev="sseifert">
         Update to global-parent 25.
+      </action>
+      <action type="update" dev="sseifert">
+        Allow HTML markup in CDATA sections in changes reports.
       </action>
     </release>
 
