@@ -26,7 +26,7 @@
 
   <bannerLeft>
     <name><![CDATA[<img src="http://wcm.io/images/favicon-16@3x.png"/> wcm.io QA]]></name>
-    <href>http://qa.wcm.io</href>
+    <href>https://qa.wcm.io</href>
   </bannerLeft>
 
   <publishDate position="bottom" format="yyyy-MM-dd" />
@@ -35,7 +35,7 @@
   <skin>
     <groupId>io.wcm.maven.skins</groupId>
     <artifactId>reflow-maven-skin</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7-SNAPSHOT</version>
   </skin>
   <custom>
     <reflowSkin>
@@ -43,12 +43,12 @@
       <protocolRelativeURLs>false</protocolRelativeURLs>
       <smoothScroll>true</smoothScroll>
       <theme>default</theme>
-      <absoluteResourceURL>http://qa.wcm.io</absoluteResourceURL>
+      <absoluteResourceURL>https://qa.wcm.io</absoluteResourceURL>
       <skinAttribution>false</skinAttribution>
       <brand>
         <!-- Brand text in top-left part of the site -->
         <name>wcm.io QA</name>
-        <href>http://qa.wcm.io</href>
+        <href>https://qa.wcm.io</href>
       </brand>
       <slogan>wcm.io Quality Assurance Support Tools</slogan>
       <titleTemplate>%2$s | %1$s</titleTemplate>
@@ -107,20 +107,20 @@
     </links>
 
     <breadcrumbs>
-      <item name="wcm.io QA" href="http://qa.wcm.io" />
+      <item name="wcm.io QA" href="https://qa.wcm.io" />
     </breadcrumbs>
 
     <menu name="Main" inherit="top">
-      <item name="Home" href="http://qa.wcm.io" />
-      <item name="Platforms" href="http://qa.wcm.io/platforms.html" />
-      <item name="Maven Repositories" href="http://qa.wcm.io/maven.html" />
+      <item name="Home" href="https://qa.wcm.io" />
+      <item name="Platforms" href="https://qa.wcm.io/platforms.html" />
+      <item name="Maven Repositories" href="https://qa.wcm.io/maven.html" />
       <item name="GitHub project" href="http://github.com/wcm-io-qa" />
       <item name="Subprojects" href="http://wcm.io/subprojects.html" />
-      <item name="License" href="http://qa.wcm.io/license.html" />
+      <item name="License" href="https://qa.wcm.io/license.html" />
       <item name="Imprint" href="http://wcm.io/imprint.html" />
     </menu>
     <menu name="Categories" inherit="top">
-      <item name="Galenium" href="http://qa.wcm.io/galenium/"/>
+      <item name="Galenium" href="https://qa.wcm.io/galenium/"/>
     </menu>
     <menu name="Contribute" inherit="top">
       <item name="Contribute" href="http://wcm.io/contribute.html" />

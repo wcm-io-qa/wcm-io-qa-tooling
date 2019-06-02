@@ -27,6 +27,12 @@
       <action type="update" dev="sseifert">
         Update to global-parent 26.
       </action>
+      <action type="update" dev="sseifert">
+        Switch wcm.io domains to HTTPS.
+      </action>
+      <action type="update" dev="sseifert">
+        Update to reflow-maven-skin 1.0.8.
+      </action>
     </release>
 
     <release version="4" date="2019-03-27">
