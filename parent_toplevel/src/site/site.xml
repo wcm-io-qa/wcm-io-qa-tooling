@@ -25,7 +25,7 @@
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
 
   <bannerLeft>
-    <name><![CDATA[<img src="http://wcm.io/images/favicon-16@3x.png"/> wcm.io QA]]></name>
+    <name><![CDATA[<img src="https://wcm.io/images/favicon-16@3x.png"/> wcm.io QA]]></name>
     <href>https://qa.wcm.io</href>
   </bannerLeft>
 
@@ -115,18 +115,18 @@
       <item name="Platforms" href="https://qa.wcm.io/platforms.html" />
       <item name="Maven Repositories" href="https://qa.wcm.io/maven.html" />
       <item name="GitHub project" href="http://github.com/wcm-io-qa" />
-      <item name="Subprojects" href="http://wcm.io/subprojects.html" />
+      <item name="Subprojects" href="https://wcm.io/subprojects.html" />
       <item name="License" href="https://qa.wcm.io/license.html" />
-      <item name="Imprint" href="http://wcm.io/imprint.html" />
+      <item name="Imprint" href="https://wcm.io/imprint.html" />
     </menu>
     <menu name="Categories" inherit="top">
       <item name="Galenium" href="https://qa.wcm.io/galenium/"/>
     </menu>
     <menu name="Contribute" inherit="top">
-      <item name="Contribute" href="http://wcm.io/contribute.html" />
+      <item name="Contribute" href="https://wcm.io/contribute.html" />
       <item name="Issues" href="https://wcm-io.atlassian.net" />
       <item name="Wiki" href="https://wcm-io.atlassian.net/wiki/" />
-      <item name="Mailing Lists" href="http://wcm.io/mailing-lists.html" />
+      <item name="Mailing Lists" href="https://wcm.io/mailing-lists.html" />
       <item name="Continuous Integration" href="https://travis-ci.org/wcm-io-qa" />
       <item name="Fork on GitHub" href="http://github.com/wcm-io-qa" />
     </menu>
