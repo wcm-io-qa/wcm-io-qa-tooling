@@ -4,7 +4,7 @@
 
 The released wcm.io artifacts are available at Maven Central:
 
-http://search.maven.org/#search|ga|1|io.wcm.qa
+https://search.maven.org/search?q=io.wcm.qa
 
 Snapshots releases are available on the Sonatype snapshot repository - use at your own risk!
 
@@ -20,7 +20,7 @@ Sometimes snapshot are referenced from the Apache Snapshot repository:
 ```xml
 <repository>
   <id>apache-snapshots</id>
-  <url>http://repository.apache.org/snapshots</url>
+  <url>https://repository.apache.org/snapshots</url>
   <layout>default</layout>
   <releases>
     <enabled>false</enabled>
