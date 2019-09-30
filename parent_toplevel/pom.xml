@@ -31,7 +31,7 @@
 
   <groupId>io.wcm.qa</groupId>
   <artifactId>io.wcm.qa.parent_toplevel</artifactId>
-  <version>6</version>
+  <version>7-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Toplevel Parent</name>
