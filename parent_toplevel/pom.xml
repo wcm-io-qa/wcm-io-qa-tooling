@@ -84,6 +84,10 @@
     <site.deploy.id>ssh-wcm.io</site.deploy.id>
     <site.deploy.url>scm:git:https://github.com/wcm-io-qa/wcm-io-qa.github.io.git</site.deploy.url>
 
+    <!-- SonarCloud -->
+    <sonar.organization>wcm-io-qa</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
   </properties>
 
   <build>
