@@ -5,7 +5,7 @@ wcm.io QA is an Open Source project which provides Quality Assurance Support Too
 
 ### Modules
 
-* [Galenium](galenium/)
+* [Galenium](galenium/) (deprecated)
 
 
 ### Subprojects
