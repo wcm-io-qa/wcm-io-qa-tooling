@@ -25,7 +25,10 @@
 
     <release version="7" date="not released">
       <action type="update" dev="sseifert">
-        Update to global-parent 44.
+        Switch to Java 11 as minimum version.
+      </action>
+      <action type="update" dev="sseifert">
+        Update to global-parent 50.
       </action>
       <action type="update" dev="sseifert">
         Update to reflow-maven-skin 1.1.0.
