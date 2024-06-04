@@ -31,7 +31,7 @@
         Update to global-parent 50.
       </action>
       <action type="update" dev="sseifert">
-        Update to reflow-maven-skin 1.1.0.
+        Update to reflow-maven-skin 1.2.0.
       </action>
       <action type="update" dev="sseifert">
         Set SonarCloud properties.
