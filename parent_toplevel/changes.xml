@@ -29,7 +29,7 @@
         Switch to Java 11 as minimum version.
       </action>
       <action type="update" dev="sseifert">
-        Update to global-parent 61.
+        Update to global-parent 65.
       </action>
       <action type="update" dev="sseifert">
         Switch to latest maven-site-plugin and update to reflow-maven-skin 1.3.4.
@@ -42,6 +42,9 @@
       </action>
       <action type="update" dev="sseifert">
         Set OddEvenVersionPolicy for gitflow-maven-plugin.
+      </action>
+      <action type="update" dev="sseifert">
+        Enable rendering of changes reports in HTML format again by reconfiguring maven-changes-plugin 3.0.0-M3.
       </action>
     </release>
 
